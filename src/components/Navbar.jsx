@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import logo from "..\assets\logo.svg"
 
 function Navbar() {
   function handleClick() {}
@@ -9,7 +10,7 @@ function Navbar() {
       <nav class="bg-white border-gray-200 dark:bg-white">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="src\assets\logo.svg" class="h-8" alt=" Logo" />
+            <img src={logo} class="h-8" alt=" Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">
               Portfolio
             </span>
