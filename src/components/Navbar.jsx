@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css";
-import logo from "..\assets\logo.svg"
+import logo from "../assets/logo.svg";
 
 function Navbar() {
   function handleClick() {}
